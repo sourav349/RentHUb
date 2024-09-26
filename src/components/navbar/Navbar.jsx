@@ -169,7 +169,7 @@ function Navbar() {
             color: mode === "dark" ? "white" : "",
           }}
         >
-          Get free delivery on orders over ₹300
+          Enjoy RentHub, connecting with customers anytime for seamless rentals.
         </p>
 
         <nav
@@ -216,7 +216,11 @@ function Navbar() {
                       className=" text-2xl font-bold text-black  px-2 py-1 rounded"
                       style={{ color: mode === "dark" ? "white" : "" }}
                     >
-                      RentHub
+                      <img
+                        src="/Rent.png"
+                        alt="logo"
+                        className="block h-12 w-32 flex-shrink-0"
+                      />
                     </h1>
                   </div>
                 </Link>
